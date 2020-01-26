@@ -18,7 +18,7 @@ We built this product by breaking it down to three main sub-products and then in
 Once, we finished creating the three sub-products, the last task was to put it all together. This includes importing the database to our web app and using speech recognition method to test the user.
 
 ## Use
-Check this out at [my website](https://www.student.cs.uwaterloo.ca/~h286wu/WordBot/index.html).
+Check this out at [my website](https://www.student.cs.uwaterloo.ca/~h286wu/WordBot/index.shtml).
 
 ## Possible Improvement
 We might further develop this web application through the following: 
@@ -34,7 +34,7 @@ We are delighted that given the strict time constraint, we were able to work wel
 Additionally, we are also proud of the potential impact our project could have on literacy rates, not just in our own community, but on a global scale where sometimes there is more technology than there are teachers/educators.
 
 ## Contributors
-This game is developed by [Yiran Cao](https://github.com/yiran0427) (HTML/CSS), [Haochen Wu](https://github.com/JasonWu1103) (HTML/CSS, php), [Fahim Yusuf](https://github.com/TinyThugTim) (Python), and Maninder Bhogal(Voice Recognition API). 
+This game is developed by [Yiran Cao](https://github.com/yiran0427) (HTML/CSS), [Haochen Wu](https://github.com/JasonWu1103) (HTML/CSS, php), [Fahim Yusuf](https://github.com/TinyThugTim) (Python), and Maninder Bhogal (Voice Recognition API). 
 
 ## License
 
