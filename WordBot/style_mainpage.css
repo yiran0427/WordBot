@@ -1,0 +1,281 @@
+html {
+  min-height: 100%;/* make sure it is at least as tall as the viewport */
+  position: relative;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #51BFE3;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 60px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 60px;
+  background-color: #51BFE3;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn:hover {
+  background-color: cornflowerblue;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 198px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: cornflowerblue;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block; 
+}
+
+.navbar-right {
+  float: right;
+}
+
+.about {
+  height: 100vh;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.navbar a:hover {
+  background-color: cornflowerblue;
+}
+
+.pwrapper {
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+
+.about-left {
+  flex: 45%;
+  margin-right: 20px;
+  padding: 70px 0;
+}
+
+.about-right {
+  flex: 55%;
+  font-size: 15px;
+  text-align: center;
+  line-height: 200%;
+  padding: 70px 0;
+}
+
+.name {
+  margin-bottom: 2px;
+}
+
+.learning {
+  height: 100vh;
+}
+
+.container {
+  display: inline-block;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.scene {
+  width: 180px;
+  height: 130px;
+  perspective: 600px;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+  display: flex;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  transform-origin: center right;
+}
+
+.card__face {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+}
+
+.card__face--front {
+  background: orange;
+}
+
+.card__face--back {
+  background: lightskyblue;
+  transform: rotateY( 180deg );
+}
+
+.card.is-flipped {
+  transform: translateX(-100%) rotateY(-180deg);
+}
+
+.text {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.btn {
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 10px 20px 10px;
+  border-radius: 12px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  background-color: cornflowerblue;
+  font-size: 18px;
+}
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.matching {
+  height: 100vh;
+}
+
+.question {
+  margin-top: 30px;
+}
+
+.mcontainer {
+  display: inline-block;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.mrow {
+  display: flex;
+  flex-direction: row;
+}
+
+.rscene {
+  width: 180px;
+  height: 180px;
+  perspective: 600px;
+  margin-bottom: 20px;
+  padding: 20px 20px 10px;
+}
+
+.rcard {
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+  display: flex;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  transform-origin: center right;
+}
+
+.rcard__face {
+  border-radius: 50%;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+}
+
+.rcard__face--front {
+  background: orange;
+}
+
+.rcard__face--back {
+  background: lightskyblue;
+  transform: rotateY( 180deg );
+}
+
+.rcard.is-flipped {
+  transform: translateX(-100%) rotateY(-180deg);
+}
+
+.ans {
+  text-align: center;
+  padding: 70px 0;
+}
+
+.img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+.Spelling{
+  display: flex;
+}
+
+.swiper-container{
+  margin-top: 100px;
+
+}
+

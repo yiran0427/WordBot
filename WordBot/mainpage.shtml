@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WordBot</title>
+    <link rel="stylesheet" type="text/css" href="style_mainpage.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="swiper.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600,700');
+        .scard{
+            position:relative;
+            background: #fff;
+            width: 400px;
+            height: 500px;
+            margin: 0 auto;
+        }
+
+        .scard .content{
+            width: 400px;
+            padding: 30px;
+            box-sizing:border-box;
+            justify-content: center;
+            margin-left: 15px;
+        }
+
+         .scard .content a{
+             display: inline-block;
+             margin: 10px 0 0;
+             padding: 10px 20px;
+             text-decoration: none;
+             border: 2px solid #262626;
+             color: #262626;
+             font-weight:600;
+        }
+        .scard .sliderText
+        {
+            position:relative;
+            width: 100%;
+            height: 200px;
+            display: flex;
+            justify-content:center;
+            align-items:center;
+            background: #000;
+        }
+
+        .scard .sliderText h3
+        {
+            color: #fff;
+            font-size: 2em;
+            justify-content: center;
+        }
+
+         .scard .sliderText h2
+        {
+            color: #fff;
+            font-size: 2em;
+            justify-content: center;
+             position:center;
+             margin-left: 15px;
+        }
+
+        .swiper-slide
+        {
+            width: 400px;
+
+        }
+
+        .swiper-slide:nth-child(1) .sliderText
+        {
+           background: #2196f3;
+        }
+
+         .swiper-slide:nth-child(2) .sliderText
+        {
+           background: #e91e63;
+        }
+
+         .swiper-slide:nth-child(3) .sliderText
+        {
+           background: #c3d41a;
+        }
+
+         .swiper-slide:nth-child(4) .sliderText
+        {
+           background: #ff9800;
+        }
+
+         .swiper-slide:nth-child(5) .sliderText
+        {
+           background: #c33ada;
+        }
+    </style>
+  </head>
+
+  <body>
+    <p class="title">WordBot</p>
+    <div class="navbar">
+      <a onclick="openPage('Profile')"> <i class="fa fa-fw fa-user"></i>  Profile</a>
+      <a onclick="openPage('Learning')"> <i class="fa fa-fw fa-leanpub"></i>  Learning</a>
+
+      <div class="dropdown">
+        <button class="dropbtn"><i class="fa fa-fw fa-pencil"></i>  Testing</button>
+        <div class="dropdown-content">
+          <a onclick="openPage('Matching')">Matching</a>
+          <a onclick="openPage('Spelling')">Spelling</a>
+        </div>
+      </div>
+      <div class="navbar-right">
+        <a href="#parallax"><i class="fa fa-fw fa-sign-out"></i>  Sign Out</a> 
+      </div>
+    </div>
+
+    <div id="Profile" class="page">
+      <div id="about" class="about">
+        <div class="pwrapper">
+          <div class="about-left">
+            <img class="profile-picture" src="profile.JPG" width="180" />
+            <h1 class="name">User Name</h1>
+            <h4 class="subtitle">User Info</h4>
+            <h4 class="subtitle">User Info</h4>
+          </div>
+
+          <div class="about-right">
+            <p>summaries</p>
+            <p>graphs</p>
+            <p>stats</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="Learning" class="page" style="display:none">
+      <div class ="container">
+        <div class ="row">
+          <div class="scene">
+                <div class="card">
+                  <div class="card__face card__face--front">
+                    <div class="text">word</div>
+                  </div>
+                  <div class="card__face card__face--back">
+                    <div class="text">explaination</div>
+                </div>
+                </div>
+              </div>
+              <div class="scene">
+                <div class="card">
+                  <div class="card__face card__face--front">
+                    <div class="text">word</div>
+                  </div>
+                  <div class="card__face card__face--back">
+                    <div class="text">explaination</div>
+                  </div>
+                </div>
+              </div>
+              <div class="scene">
+                <div class="card">
+                  <div class="card__face card__face--front">
+                    <div class="text">word</div>
+                  </div>
+                  <div class="card__face card__face--back">
+                    <div class="text">explaination</div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class ="row">
+          <div class="scene">
+                <div class="card">
+                  <div class="card__face card__face--front">
+                    <div class="text">word</div>
+                  </div>
+                  <div class="card__face card__face--back">
+                    <div class="text">explaination</div>
+                  </div>
+                </div>
+              </div>
+              <div class="scene">
+                <div class="card">
+                  <div class="card__face card__face--front">
+                    <div class="text">word</div>
+                  </div>
+                  <div class="card__face card__face--back">
+                    <div class="text">explaination</div>
+                  </div>
+                </div>
+              </div>
+              <div class="scene">
+                <div class="card">
+                  <div class="card__face card__face--front">
+                    <div class="text">word</div>
+                  </div>
+                  <div class="card__face card__face--back">
+                    <div class="text">explaination</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        <div class ="row">
+          <div class="scene">
+            <div class="card">
+              <div class="card__face card__face--front">
+                <div class="text">word</div>
+              </div>
+              <div class="card__face card__face--back">
+                <div class="text">explaination</div>
+              </div>
+            </div>
+          </div>
+          <div class="scene">
+            <div class="card">
+              <div class="card__face card__face--front">
+                <div class="text">word</div>
+              </div>
+              <div class="card__face card__face--back">
+                <div class="text">explaination</div>
+              </div>
+            </div>
+          </div>
+          <div class="scene">
+            <div class="card">
+              <div class="card__face card__face--front">
+                <div class="text">word</div>
+              </div>
+              <div class="card__face card__face--back">
+                <div class="text">explaination</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <button id="genbtn" class= "btn" onclick="generate()">Generate</button>
+        <button id="cmpbtn" class= "btn" onclick="openPage('Profile')">Complete</button>
+      </div>
+    </div>
+
+    <div id="Matching" class="page" style="display:none">
+      <h1 class="question">WORD</h1>
+      <div class ="mcontainer">
+        <div class ="mrow">
+          <div class="rscene">
+            <div class="rcard">
+              <div class="rcard__face rcard__face--front">
+                <div class="ans">explaination</div>
+              </div>
+              <div class="rcard__face rcard__face--back">
+                <img id='img' class="img" src= imageshown>
+              </div>
+            </div>
+          </div>
+          <div class="rscene">
+            <div class="rcard">
+              <div class="rcard__face rcard__face--front">
+                <div class="ans">explaination</div>
+              </div>
+              <div class="rcard__face rcard__face--back">
+                <img id='img' class="img" src= imageshown>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class ="mrow">
+          <div class="rscene">
+            <div class="rcard">
+              <div class="rcard__face rcard__face--front">
+                <div class="ans">explaination</div>
+              </div>
+              <div class="rcard__face rcard__face--back">
+                <img id='img' class="img" src= imageshown>
+              </div>
+            </div>
+          </div>
+          <div class="rscene">
+            <div class="rcard">
+              <div class="rcard__face rcard__face--front">
+                <div class="ans">explaination</div>
+              </div>
+              <div class="rcard__face rcard__face--back">
+                <img id='img' class="img" src= imageshown>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <button id="nextbtn" class= "btn" onclick="reset()">Next Question</button>
+        <button id="cmpbtn" class= "btn" onclick="openPage('Profile')">Complete</button>
+      </div>
+    </div>
+
+    <div id="Spelling" class="page" style="display:none">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+           <div class="scard">
+               <div class="sliderText">
+                  <!-- Input area -->
+                   <label for="Speech Recognition"><h3>Please spell the word <br><h2>"APPLE"</h2></h3></label>
+
+                      <!-- Below is the script for voice recognition and conversion to text-->
+               </div>
+               <div class="content">
+                   <p class="demo">
+                       <img name="speechToText" id="d" placeholder="Speak Something" onclick="record()" src="cuteearth-removebg-preview.png">
+                       <h6>          Tap on the earth before speaking!</h6>
+                   </p>
+               </div>
+           </div>
+            </div>
+              <div class="swiper-slide">
+           <div class="scard">
+               <div class="sliderText">
+                  <!-- Input area -->
+                   <label for="Speech Recognition"><h3>Please spell the word <br><h2>"MOM"</h2></h3></label>
+                      <!-- Below is the script for voice recognition and conversion to text-->
+               </div>
+              <div class="content">
+                      <p class="demo">
+                       <img name="speechToText" id="ddd" placeholder="Speak Something" onclick="record()" src="cuteearth-removebg-preview.png">
+                       <h6>           Tap on the earth before speaking!</h6>
+                   </p>
+               </div>
+           </div>
+            </div>
+              <div class="swiper-slide">
+           <div class="scard">
+               <div class="sliderText">
+                  <!-- Input area -->
+                   <label for="Speech Recognition"><h3>Please spell the word <br><h2>"BALL"</h2></h3></label>
+
+                      <!-- Below is the script for voice recognition and conversion to text-->
+               </div>
+               <div class="content">
+                      <p class="demo">
+                       <img name="speechToText" id="dd" placeholder="Speak Something" onclick="record()" src="cuteearth-removebg-preview.png">
+                       <h6>          Tap on the earth before speaking!</h6>
+                   </p>
+               </div>
+           </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="Prononciation" class="page" style="display:none">
+      <p>Prononciation</p>
+    </div>
+
+    <script src="swiper.min.js"></script>
+
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 30,
+        stretch: 0,
+        depth: 200,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+        function record() {
+            var recognition = new webkitSpeechRecognition();
+            recognition.lang = "en-GB";
+
+            recognition.onresult = function(event) {
+                // console.log(event);
+                var x1 = document.getElementsByName('speechToText').value = event.results[0][0].transcript;
+                  console.log(x1);
+                var x2 = document.getElementsByName('speechToText').value = event.results[0][0].transcript;
+                  console.log(x2);
+                var x3 = document.getElementsByName('speechToText').value = event.results[0][0].transcript;
+                  console.log(x3);
+                if(x1 === 'Apple'){
+                     var element = document.getElementsByClassName("swiper-wrapper")[0];
+                    element.getElementsByClassName("demo")[0].innerHTML = 'Great job! Swipe left!'
+                }
+                if(x2 === 'mom'){
+                    var element = document.getElementsByClassName("swiper-wrapper")[0];
+                    element.getElementsByClassName("demo")[1].innerHTML = 'Great job! Swipe left!'
+                }
+                 if(x3 === 'ball'){
+                    var element = document.getElementsByClassName("swiper-wrapper")[0];
+                    element.getElementsByClassName("demo")[2].innerHTML = 'Great job! Swipe left!'
+                }
+            }
+            recognition.start();
+        }
+
+      function openPage(pageName) {
+        var i;
+        var x = document.getElementsByClassName("page");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none"; 
+        }
+        document.getElementById(pageName).style.display = "block";
+      }
+
+      var tmp;
+      var vocablst;
+      function generate() {
+        const fileUrl = './hello.txt';
+        fetch(fileUrl)
+           .then( r => r.text())
+           .then(data => {
+            tmp = data;
+          })
+      }
+
+      var card = document.getElementsByClassName("card");
+      for (var j = 0; j < card.length; j++) {
+        card[j].addEventListener( 'click', function() {
+          this.classList.toggle('is-flipped');
+        });
+      }
+
+      var rcard = document.getElementsByClassName("rcard");
+      for (var k = 0; k < rcard.length; k++) {
+        rcard[k].addEventListener( 'click', function() {
+          this.classList.toggle('is-flipped')
+          });
+      }
+
+      for (k = 0; k < rcard.length; k++) {
+        var c = 2;
+        if (c == 2) {
+            var imageshown = "right.JPG"
+        } else {
+            var imageshown = "wrong.JPG"
+        }
+        document.getElementsByClassName("img")[k].src = imageshown;
+      }
+
+      function reset(){
+        var rcard = document.getElementsByClassName("rcard");
+        for (var r = 0; r < rcard.length; r++) {
+          rcard[r].classList.remove('is-flipped');
+          // generate one word learned
+        }
+      }
+    </script>
+  </body>
+</html>
+
