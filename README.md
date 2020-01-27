@@ -1,6 +1,8 @@
 # WordBot
 A web app aimed at improving children's vocabulary by automating the creation vocabulary lists based on statistical methods and establishing active learning by interacting through speech.
 
+Check it out at [my website](https://www.student.cs.uwaterloo.ca/~y267cao/WordBot-master/WordBot/index.shtml).
+
 ## Inspiration
 
 We were inspired by brainstorming ways in which we could bring all group members' interests together. This included bringing together _education_, _data visualization/analysis_, and _positive social impact_ onto one platform.
@@ -17,8 +19,6 @@ We built this product by breaking it down to three main sub-products and then in
 
 Once, we finished creating the three sub-products, the last task was to put it all together. This includes importing the database to our web app and using speech recognition method to test the user.
 
-## Use
-Check this out at [my website](https://www.student.cs.uwaterloo.ca/~h286wu/WordBot/index.shtml).
 
 ## Possible Improvement
 We might further develop this web application through the following: 
