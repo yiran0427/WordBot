@@ -34,7 +34,7 @@ We are delighted that given the strict time constraint, we were able to work wel
 Additionally, we are also proud of the potential impact our project could have on literacy rates, not just in our own community, but on a global scale where sometimes there is more technology than there are teachers/educators.
 
 ## Contributors
-This game is developed by [Yiran Cao](https://github.com/yiran0427) (HTML/CSS), [Haochen Wu](https://github.com/JasonWu1103) (HTML/CSS, php), [Fahim Yusuf](https://github.com/TinyThugTim) (Python), and Maninder Bhogal (Voice Recognition API). 
+This game is developed by [Yiran Cao](https://github.com/yiran0427) (HTML/CSS/JavaScript), [Haochen Wu](https://github.com/JasonWu1103) (HTML/CSS, php), [Fahim Yusuf](https://github.com/TinyThugTim) (Python), and Maninder Bhogal (Voice Recognition API). 
 
 ## License
 
